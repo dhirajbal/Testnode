@@ -1,0 +1,171 @@
+{
+	"id": "1dd49882-bde7-8cb5-34e6-ae4eb618bfb8",
+	"name": "test",
+	"description": "",
+	"order": [
+		"db8de7ca-b059-a871-75c2-9c5df594a788",
+		"18c5db10-b651-44b8-10db-cb004760e68c",
+		"18bb873d-15e6-1ad3-e1d3-4cf0d311c4c1",
+		"2217c587-d0f3-8f14-5808-214ee2a01052",
+		"3a110b0f-aa67-3ae2-e816-bab60aa76f75"
+	],
+	"folders": [],
+	"folders_order": [],
+	"timestamp": 1632742065221,
+	"owner": 0,
+	"public": false,
+	"requests": [
+		{
+			"id": "18bb873d-15e6-1ad3-e1d3-4cf0d311c4c1",
+			"headers": "Content-Type: application/json\n",
+			"headerData": [
+				{
+					"key": "Content-Type",
+					"value": "application/json",
+					"description": "",
+					"enabled": true
+				}
+			],
+			"url": "http://localhost:3000/workshift",
+			"queryParams": [],
+			"pathVariables": {},
+			"pathVariableData": [],
+			"preRequestScript": null,
+			"method": "POST",
+			"collectionId": "1dd49882-bde7-8cb5-34e6-ae4eb618bfb8",
+			"data": [],
+			"dataMode": "raw",
+			"name": "getAll",
+			"description": "",
+			"descriptionFormat": "html",
+			"time": 1632745053025,
+			"version": 2,
+			"responses": [],
+			"tests": null,
+			"currentHelper": "normal",
+			"helperAttributes": {},
+			"rawModeData": "{\n\t\"work_shift_name\":\"morning\",\n\t\"start_time\":\"09:00:00\",\n\t\"end_time\":\"18:00:00\",\n\t\"shift_start_date\":\"2021-03-07\",\n\t\"shift_end_date\":\"2021-03-09\",\n\t\"organization_id\":\"1\"\n}"
+		},
+		{
+			"id": "18c5db10-b651-44b8-10db-cb004760e68c",
+			"headers": "Content-Type: application/json\n",
+			"headerData": [
+				{
+					"key": "Content-Type",
+					"value": "application/json",
+					"description": "",
+					"enabled": true
+				}
+			],
+			"url": "http://localhost:3000/workshift/1",
+			"queryParams": [],
+			"preRequestScript": null,
+			"pathVariables": {},
+			"pathVariableData": [],
+			"method": "PUT",
+			"data": [],
+			"dataMode": "raw",
+			"version": 2,
+			"tests": null,
+			"currentHelper": "normal",
+			"helperAttributes": {},
+			"time": 1632748947803,
+			"name": "Update",
+			"description": "",
+			"collectionId": "1dd49882-bde7-8cb5-34e6-ae4eb618bfb8",
+			"responses": [],
+			"rawModeData": "{\n\t\"work_shift_name\":\"night\",\n\t\"start_time\":\"10:00:00\",\n\t\"end_time\":\"18:00:00\",\n\t\"shift_start_date\":\"2021-03-07\",\n\t\"shift_end_date\":\"2021-03-09\",\n\t\"organization_id\":\"1\"\n}"
+		},
+		{
+			"id": "2217c587-d0f3-8f14-5808-214ee2a01052",
+			"headers": "Content-Type: application/json\n",
+			"headerData": [
+				{
+					"key": "Content-Type",
+					"value": "application/json",
+					"description": "",
+					"enabled": true
+				}
+			],
+			"url": "http://localhost:3000/workshift",
+			"queryParams": [],
+			"preRequestScript": null,
+			"pathVariables": {},
+			"pathVariableData": [],
+			"method": "POST",
+			"data": [],
+			"dataMode": "raw",
+			"version": 2,
+			"tests": null,
+			"currentHelper": "normal",
+			"helperAttributes": {},
+			"time": 1632745324520,
+			"name": "getOne",
+			"description": "",
+			"collectionId": "1dd49882-bde7-8cb5-34e6-ae4eb618bfb8",
+			"responses": [],
+			"rawModeData": "{\n\t\"work_shift_name\":\"morning\",\n\t\"start_time\":\"09:00:00\",\n\t\"end_time\":\"18:00:00\",\n\t\"shift_start_date\":\"2021-03-07\",\n\t\"shift_end_date\":\"2021-03-09\",\n\t\"organization_id\":\"1\"\n}"
+		},
+		{
+			"id": "3a110b0f-aa67-3ae2-e816-bab60aa76f75",
+			"headers": "Content-Type: application/json\n",
+			"headerData": [
+				{
+					"key": "Content-Type",
+					"value": "application/json",
+					"description": "",
+					"enabled": true
+				}
+			],
+			"url": "http://localhost:3000/workshift",
+			"queryParams": [],
+			"preRequestScript": null,
+			"pathVariables": {},
+			"pathVariableData": [],
+			"method": "POST",
+			"data": [],
+			"dataMode": "raw",
+			"version": 2,
+			"tests": null,
+			"currentHelper": "normal",
+			"helperAttributes": {},
+			"time": 1632746427222,
+			"name": "delete",
+			"description": "",
+			"collectionId": "1dd49882-bde7-8cb5-34e6-ae4eb618bfb8",
+			"responses": [],
+			"rawModeData": "{\n\t\"work_shift_name\":\"morning\",\n\t\"start_time\":\"09:00:00\",\n\t\"end_time\":\"18:00:00\",\n\t\"shift_start_date\":\"2021-03-07\",\n\t\"shift_end_date\":\"2021-03-09\",\n\t\"organization_id\":\"1\"\n}"
+		},
+		{
+			"id": "db8de7ca-b059-a871-75c2-9c5df594a788",
+			"headers": "Content-Type: application/json\n",
+			"headerData": [
+				{
+					"key": "Content-Type",
+					"value": "application/json",
+					"description": "",
+					"enabled": true
+				}
+			],
+			"url": "http://localhost:3000/workshift",
+			"queryParams": [],
+			"pathVariables": {},
+			"pathVariableData": [],
+			"preRequestScript": null,
+			"method": "POST",
+			"collectionId": "1dd49882-bde7-8cb5-34e6-ae4eb618bfb8",
+			"data": [],
+			"dataMode": "raw",
+			"name": "Create",
+			"description": "",
+			"descriptionFormat": "html",
+			"time": 1632745053025,
+			"version": 2,
+			"responses": [],
+			"tests": null,
+			"currentHelper": "normal",
+			"helperAttributes": {},
+			"rawModeData": "{\n\t\"work_shift_name\":\"morning\",\n\t\"start_time\":\"09:00:00\",\n\t\"end_time\":\"18:00:00\",\n\t\"shift_start_date\":\"2021-03-07\",\n\t\"shift_end_date\":\"2021-03-09\",\n\t\"organization_id\":\"1\"\n}"
+		}
+	]
+}
